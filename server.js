@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174','https://digisolvotingsytem.vercel.app'],
+  // origin: ['http://localhost:5173', 'http://localhost:5174','https://digisolvotingsytem.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
